@@ -1,0 +1,301 @@
+# Copyright (C) 2013 Comment Redlist
+# This file is distributed under the same license as the Comment Redlist package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Comment Redlist 1.0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/comment-redlist\n"
+"POT-Creation-Date: 2013-03-21 06:35:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-07-07 08:43+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. #-#-#-#-#  plugin.pot (Comment Redlist 1.0.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/lang.php:6
+msgid "Comment Redlist"
+msgstr "Comment Redlist"
+
+#: inc/lang.php:9
+msgid "America/Los_Angeles"
+msgstr "America/Los_Angeles"
+
+#: inc/lang.php:12
+msgid "You do not have sufficient permissions to access this page"
+msgstr "Nemate potrebne dozvole za pristup ovoj stranici"
+
+#: inc/lang.php:15
+msgid ""
+"<b>Error</b>: Comment Spam Detected.<br /><br />Something in your comment "
+"submission has identified it as spam by our comment processing system. Your "
+"comment has not been accepted."
+msgstr ""
+"<b>Error</b>: spam komentar otkriven. <br /><br /> Naš sistem za obradu "
+"komentara identifikovao je nešto u vašem komentaru kao spam. Vaš komentar "
+"nije prihvaćen."
+
+#: inc/lang.php:18
+msgid "Plugin Options"
+msgstr "Opcije za plugin"
+
+#: inc/lang.php:21
+msgid "Comment Redlist Options"
+msgstr "Opcije za Comment Redlist"
+
+#: inc/lang.php:22
+msgid "These are the settings for the Comment Redlist plugin."
+msgstr "Ovo su postavke za Comment Redlist plugin."
+
+#: inc/lang.php:25
+msgid "Redlisted Sequences"
+msgstr "Zabranjeni nizovi sa liste"
+
+#: inc/lang.php:26
+msgid ""
+"When a comment contains any of the character sequences you specify below, "
+"whether in it's comment body, name field, website field, or e-mail field, it "
+"will <strong>NOT</strong> be marked as spam. Instead it will be blocked, and "
+"not appear in your pending comments, spam comments, or trash. <strong style="
+"\"color:red;\">It will not be inserted into your database!</strong> Put one "
+"character sequence per line. Sequences will match inside words, so \"ass\" "
+"would match \"bass\"."
+msgstr ""
+"Kada komentar sadrži bilo koju od sekvenci karaktera koje ste naveli u "
+"nastavku, bez obzira na to da li se nalazi u tekstu komentara, polju naziva, "
+"polju za web site, ili u polju za e-mail, biće <strong>NOT</strong> označen "
+"kao spam. Biće blokiran i neće se pojavljivati u komentarima na čekanju, u "
+"spam komentarima, niti u komentarima u kanti za đubre. <strong style=\"color:"
+"red;\"> Neće biti unet u vašu bazu podataka! </strong> Unesite po jedan niz "
+"karaktera u svakom redu. Nizovi će se podudarati sa delovima reči, npr. \"ass"
+"\" će se podudarati sa \"bass\"."
+
+#: inc/lang.php:27
+msgid "Redlisted Sequence Detected: "
+msgstr "Pronađen niz sa liste zabranjenih nizova"
+
+#: inc/lang.php:30
+msgid "Redlisted IP Addresses"
+msgstr "IP adrese sa liste zabranjenih adresa"
+
+#: inc/lang.php:31
+msgid ""
+"Any requests from IP Addresses listed below are totally blocked. Blocking at "
+"the server level is preferred, but this may be your only option. Put one IP "
+"address per line. <strong style=\"color:red;\">Make sure not to block your "
+"own IP Address!</strong>"
+msgstr ""
+"Svi zahtevi sa navedenih IP adresa potpuno su blokirani. Preporučljivo je "
+"blokiranje na nivou servera, ali možda vam je ovo jedina opcija. Navedite po "
+"jednu IP adresu u redu. Proverite da niste blokirali svoju IP adresu! "
+
+#: inc/lang.php:32
+msgid "Redlisted IP Address: "
+msgstr "IP adrese na listi zabranjenih"
+
+#: inc/lang.php:35
+msgid "Log Blocked Comments"
+msgstr "Blokirani komentari dnevnika"
+
+#: inc/lang.php:36
+msgid ""
+"Blocked comments will be stored in <strong>/wp-content/plugins/comment-"
+"redlist/comment_log/</strong>"
+msgstr ""
+"Blokirani komentari biće sačuvani u <strong>/wp-content/plugins/comment-"
+"redlist/comment_log/</strong>"
+
+#: inc/lang.php:39
+msgid "Use JS Alerts"
+msgstr "Upotrebite JS upozorenja"
+
+#: inc/lang.php:40
+msgid ""
+"Helpful javascript alerts to warn humans that their comment submission "
+"contains sequences you have redlisted."
+msgstr ""
+"Korsna javascript upozorenja koja obaveštavaju ljude da njihovi komentari "
+"sadrže sekvence koje ste markirali kao zabranjene."
+
+#: inc/lang.php:41
+msgid "Comment submissions cannot contain:"
+msgstr "Komentari ne mogu da sadrže:"
+
+#: inc/lang.php:42
+msgid "Please remove this and resubmit."
+msgstr ""
+"Molimo vas da uklonite sledeće sadržaje i da ponovo postavite komentar:"
+
+#: inc/lang.php:45
+msgid "Load jQuery"
+msgstr "Učitaj  jQuery"
+
+#: inc/lang.php:46
+msgid ""
+"Load jQuery in document &lt;head&gt;. Only required if you are not already "
+"loading jQuery and have enabled client side alerts."
+msgstr ""
+"Učitaj jQuery u dokument &lt;head&gt; Obavezno je samo ako već niste učitali "
+"Query i ako ste štiklirali upozorenja na strani klijenta.   "
+
+#: inc/lang.php:49
+msgid "Use die() Instead of wp_die()"
+msgstr "Koristite  die() umesto wp_die()."
+
+#: inc/lang.php:50
+msgid ""
+"Using PHP's die() leaves spammers with the whitescreen of death. Wordpress' "
+"wp_die() offers info about why they were blocked."
+msgstr ""
+"Ako koristite PHP die(), spameri će videti beli ekran smrti. Wordpress-ov "
+"wp_die() daje podatke o razlogu zbog kojih je blokiran. "
+
+#: inc/lang.php:53
+msgid "Use Form Tokens"
+msgstr "Upotrebite tokene formulara"
+
+#: inc/lang.php:54
+msgid ""
+"Form tokens ensure comment legitimacy through PHP's $_SESSION cookies. Links "
+"in document &lt;head&gt; may need to be removed."
+msgstr ""
+"Tokeni formulara obezbeđuju legitimitet komentara PHP $_SESSION kolačićima. "
+"Možda treba ukloniti &lt;head&gt linkove u komentaru."
+
+#: inc/lang.php:55
+msgid ""
+"<b>Error</b>: Comment Spam Detected. Cookies Required For Comment Submission"
+msgstr ""
+"<b>Error</b>: otkriven spam komentar. Za podnošenje komentara potrebni su "
+"kolačići."
+
+#: inc/lang.php:56
+msgid "Posted Token: "
+msgstr "Poslat token:"
+
+#: inc/lang.php:57
+msgid "Session Token: "
+msgstr "Token sesije:"
+
+#: inc/lang.php:60
+msgid "Remove WP Links From &lt;head&gt;"
+msgstr "Uklonite WP linkove iz:&lt;head&gt;"
+
+#: inc/lang.php:61
+msgid ""
+"Removes WP links in document &lt;head&gt; if page <a href=\"http://codex."
+"wordpress.org/Function_Reference/is_singular\">is_singular</a>. May be "
+"necessary if using form tokens feature."
+msgstr ""
+"Uklanja WP linkove u dokumentu ako je stranica &lt;head&gt; if page <a href="
+"\"http://codex.wordpress.org/Function_Reference/is_singular\">is_singular</"
+"a>. Može biti neophodno ako koristite opciju tokena formulara."
+
+#: inc/lang.php:64
+msgid "Session Cookie Name"
+msgstr "Naziv kolačića sesije"
+
+#: inc/lang.php:65
+msgid ""
+"If using form tokens, you may choose a unique cookie name. Alphanumeric "
+"characters are considered safe. No semi-colon, comma or white space. If "
+"you're not sure, play it safe and use alphanumeric characters, or check out "
+"the <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">cookie spec</a>."
+msgstr ""
+"Ako koristite tokene formulara, možete odabrati jedinstven naziv za kolačić. "
+"Alfanumerički karakteri smatraju se bezbednim. Nema: tačke zareza, zareza "
+"ili razmaka. Ako niste sigurni, igrajte na sigurno i koristite alfanumeričke "
+"karaktere ili proverite<a href=\"http://curl.haxx.se/rfc/cookie_spec.html\"> "
+"cookie spec</a>. "
+
+#: inc/lang.php:68
+msgid "Character Restriction"
+msgstr "Ograničenje karaktera"
+
+#: inc/lang.php:69
+msgid "No"
+msgstr "Ne"
+
+#: inc/lang.php:70
+msgid "US Keyboard Only (all)"
+msgstr "Samo US tastatura (sve)"
+
+#: inc/lang.php:71
+msgid "US Keyboard Only (all except greater than or less than signs)"
+msgstr "Samo US tastatura (osim znakova veće i manje)"
+
+#: inc/lang.php:72
+msgid "Custom Regular Expression: "
+msgstr "Prilagođen regularan izraz"
+
+#: inc/lang.php:73
+msgid "Example: "
+msgstr "Primer:"
+
+#: inc/lang.php:74
+msgid "<b>Error</b>: Comment Contained Disallowed Characters"
+msgstr "<b>Error</b>: Komentar sadrži nedozvoljene karaktere."
+
+#: inc/lang.php:75
+msgid "Character Restriction Detected: "
+msgstr "Primećeno ograničenje karaktera"
+
+#: inc/lang.php:76
+msgid "Empty custom regular expression for Character Restriction, PLEASE FIX"
+msgstr ""
+"Prazan regularan prilagođen izraz za ograničenje karaktera, MOLIMO VAS DA "
+"POPRAVITE"
+
+#: inc/lang.php:79
+msgid "Remove &amp; Block Website Field"
+msgstr "Ukloni znak &; polje za blokiranje web site-a "
+
+#: inc/lang.php:80
+msgid ""
+"Removes the \"Website\" field from your comment form, replacing it with a "
+"hidden form field. A perfect trap for many bots."
+msgstr ""
+"Uklanja polje \"Website\" iz formulara komentara zamenjujući ga poljem "
+"skrivenog oblika. Savršena zamka za mnoge robote."
+
+#: inc/lang.php:81
+msgid "Website Field Detected"
+msgstr "Primećeno polje web site-a"
+
+#: inc/lang.php:84
+msgid "Debug Mode"
+msgstr "Režim otklanjanja grešaka"
+
+#: inc/lang.php:85
+msgid ""
+"Shows data that may be helpful for understanding more about spam detection "
+"and token failures."
+msgstr ""
+"Prokazuje podatke koji mogu biti korisni za razumevanje grešaka u "
+"detektovanju spam-ova ili grešaka u tokenu."
+
+#: inc/lang.php:88
+msgid "Save Changes"
+msgstr "Sačuvaj izmene"
+
+#. Plugin URI of the plugin/theme
+msgid "http://brianswebdesign.com/blog/wordpress/the-comment-redlist-plugin"
+msgstr "http://brianswebdesign.com/blog/wordpress/the-comment-redlist-plugin"
+
+#. Description of the plugin/theme
+msgid ""
+"Blocks spam, identified by your specified character sequences, instead of "
+"inserting it into the database."
+msgstr ""
+"Blokira spam-ove, određene posebnim nizovima karaktera, umesto da ih ubacuje "
+"u bazu podataka."
+
+#. Author of the plugin/theme
+msgid "Robert Brian Gottier"
+msgstr "Robert Brian Gottier"
+
+#. Author URI of the plugin/theme
+msgid "http://brianswebdesign.com"
+msgstr "http://brianswebdesign.com"

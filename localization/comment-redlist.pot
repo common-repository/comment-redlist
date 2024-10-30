@@ -1,0 +1,257 @@
+# Copyright (C) 2013 Comment Redlist
+# This file is distributed under the same license as the Comment Redlist package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Comment Redlist 1.0.5\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/comment-redlist\n"
+"POT-Creation-Date: 2013-03-21 06:35:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (Comment Redlist 1.0.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/lang.php:6
+msgid "Comment Redlist"
+msgstr ""
+
+#: inc/lang.php:9
+msgid "America/Los_Angeles"
+msgstr ""
+
+#: inc/lang.php:12
+msgid "You do not have sufficient permissions to access this page"
+msgstr ""
+
+#: inc/lang.php:15
+msgid ""
+"<b>Error</b>: Comment Spam Detected.<br /><br />Something in your comment "
+"submission has identified it as spam by our comment processing system. Your "
+"comment has not been accepted."
+msgstr ""
+
+#: inc/lang.php:18
+msgid "Plugin Options"
+msgstr ""
+
+#: inc/lang.php:21
+msgid "Comment Redlist Options"
+msgstr ""
+
+#: inc/lang.php:22
+msgid "These are the settings for the Comment Redlist plugin."
+msgstr ""
+
+#: inc/lang.php:25
+msgid "Redlisted Sequences"
+msgstr ""
+
+#: inc/lang.php:26
+msgid ""
+"When a comment contains any of the character sequences you specify below, "
+"whether in it's comment body, name field, website field, or e-mail field, it "
+"will <strong>NOT</strong> be marked as spam. Instead it will be blocked, and "
+"not appear in your pending comments, spam comments, or trash. <strong style="
+"\"color:red;\">It will not be inserted into your database!</strong> Put one "
+"character sequence per line. Sequences will match inside words, so \"ass\" "
+"would match \"bass\"."
+msgstr ""
+
+#: inc/lang.php:27
+msgid "Redlisted Sequence Detected: "
+msgstr ""
+
+#: inc/lang.php:30
+msgid "Redlisted IP Addresses"
+msgstr ""
+
+#: inc/lang.php:31
+msgid ""
+"Any requests from IP Addresses listed below are totally blocked. Blocking at "
+"the server level is preferred, but this may be your only option. Put one IP "
+"address per line. <strong style=\"color:red;\">Make sure not to block your "
+"own IP Address!</strong>"
+msgstr ""
+
+#: inc/lang.php:32
+msgid "Redlisted IP Address: "
+msgstr ""
+
+#: inc/lang.php:35
+msgid "Log Blocked Comments"
+msgstr ""
+
+#: inc/lang.php:36
+msgid ""
+"Blocked comments will be stored in <strong>/wp-content/plugins/comment-"
+"redlist/comment_log/</strong>"
+msgstr ""
+
+#: inc/lang.php:39
+msgid "Use JS Alerts"
+msgstr ""
+
+#: inc/lang.php:40
+msgid ""
+"Helpful javascript alerts to warn humans that their comment submission "
+"contains sequences you have redlisted."
+msgstr ""
+
+#: inc/lang.php:41
+msgid "Comment submissions cannot contain:"
+msgstr ""
+
+#: inc/lang.php:42
+msgid "Please remove this and resubmit."
+msgstr ""
+
+#: inc/lang.php:45
+msgid "Load jQuery"
+msgstr ""
+
+#: inc/lang.php:46
+msgid ""
+"Load jQuery in document &lt;head&gt;. Only required if you are not already "
+"loading jQuery and have enabled client side alerts."
+msgstr ""
+
+#: inc/lang.php:49
+msgid "Use die() Instead of wp_die()"
+msgstr ""
+
+#: inc/lang.php:50
+msgid ""
+"Using PHP's die() leaves spammers with the whitescreen of death. Wordpress' "
+"wp_die() offers info about why they were blocked."
+msgstr ""
+
+#: inc/lang.php:53
+msgid "Use Form Tokens"
+msgstr ""
+
+#: inc/lang.php:54
+msgid ""
+"Form tokens ensure comment legitimacy through PHP's $_SESSION cookies. Links "
+"in document &lt;head&gt; may need to be removed."
+msgstr ""
+
+#: inc/lang.php:55
+msgid ""
+"<b>Error</b>: Comment Spam Detected. Cookies Required For Comment Submission"
+msgstr ""
+
+#: inc/lang.php:56
+msgid "Posted Token: "
+msgstr ""
+
+#: inc/lang.php:57
+msgid "Session Token: "
+msgstr ""
+
+#: inc/lang.php:60
+msgid "Remove WP Links From &lt;head&gt;"
+msgstr ""
+
+#: inc/lang.php:61
+msgid ""
+"Removes WP links in document &lt;head&gt; if page <a href=\"http://codex."
+"wordpress.org/Function_Reference/is_singular\">is_singular</a>. May be "
+"necessary if using form tokens feature."
+msgstr ""
+
+#: inc/lang.php:64
+msgid "Session Cookie Name"
+msgstr ""
+
+#: inc/lang.php:65
+msgid ""
+"If using form tokens, you may choose a unique cookie name. Alphanumeric "
+"characters are considered safe. No semi-colon, comma or white space. If "
+"you're not sure, play it safe and use alphanumeric characters, or check out "
+"the <a href=\"http://curl.haxx.se/rfc/cookie_spec.html\">cookie spec</a>."
+msgstr ""
+
+#: inc/lang.php:68
+msgid "Character Restriction"
+msgstr ""
+
+#: inc/lang.php:69
+msgid "No"
+msgstr ""
+
+#: inc/lang.php:70
+msgid "US Keyboard Only (all)"
+msgstr ""
+
+#: inc/lang.php:71
+msgid "US Keyboard Only (all except greater than or less than signs)"
+msgstr ""
+
+#: inc/lang.php:72
+msgid "Custom Regular Expression: "
+msgstr ""
+
+#: inc/lang.php:73
+msgid "Example: "
+msgstr ""
+
+#: inc/lang.php:74
+msgid "<b>Error</b>: Comment Contained Disallowed Characters"
+msgstr ""
+
+#: inc/lang.php:75
+msgid "Character Restriction Detected: "
+msgstr ""
+
+#: inc/lang.php:76
+msgid "Empty custom regular expression for Character Restriction, PLEASE FIX"
+msgstr ""
+
+#: inc/lang.php:79
+msgid "Remove &amp; Block Website Field"
+msgstr ""
+
+#: inc/lang.php:80
+msgid ""
+"Removes the \"Website\" field from your comment form, replacing it with a "
+"hidden form field. A perfect trap for many bots."
+msgstr ""
+
+#: inc/lang.php:81
+msgid "Website Field Detected"
+msgstr ""
+
+#: inc/lang.php:84
+msgid "Debug Mode"
+msgstr ""
+
+#: inc/lang.php:85
+msgid ""
+"Shows data that may be helpful for understanding more about spam detection "
+"and token failures."
+msgstr ""
+
+#: inc/lang.php:88
+msgid "Save Changes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://brianswebdesign.com/blog/wordpress/the-comment-redlist-plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Blocks spam, identified by your specified character sequences, instead of "
+"inserting it into the database."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Robert Brian Gottier"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://brianswebdesign.com"
+msgstr ""
